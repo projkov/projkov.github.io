@@ -4,15 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hello everyone. My name is Pavel Rozhkov. Welcome to my personal text blog.
+I'm a Fullstack Healthcare Software Engineer with a major tech stack including, but not limited to, React JS, React Native, TypeScript, and Python. Over the past six years, I've been participating in the development of various medical information systems using the FHIR standard for the exchange of medical information. I am passionate about technology, innovation, and tackling big challenging tasks on my to-do list.
