@@ -20,8 +20,8 @@
 
 title: Pavel Rozhkov
 email: prozskov@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I'm a Fullstack Healthcare Software Engineer with a major tech stack including but not limited to React JS, React Native, TypeScript and Python. Past five years I've been participating in the development of various medical information systems using the FHIR standard for the exchange of medical information. I am passionate about technology, innovation and big challenging tasks on my to do list.
+description: >- # this means to ignore newlines until "baseurl:" 
+  I'm a develper with over 9 years of work experience. My key tools are Python, TypeScript, and PostgreSQL. My focus is on healthcare. I'm a big fan of both medicine and video games. This is my text blog about the things I love.o
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jekyll
