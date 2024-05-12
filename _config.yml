@@ -21,7 +21,7 @@
 title: Pavel Rozhkov
 email: prozskov@gmail.com
 description: >- # this means to ignore newlines until "baseurl:" 
-  I'm a develper with over 9 years of work experience. My key tools are Python, TypeScript, and PostgreSQL. My focus is on healthcare. I'm a big fan of both medicine and video games. This is my text blog about the things I love.
+  I'm a developer with over 9 years of work experience. My key tools are Python, TypeScript, and PostgreSQL. My focus is on healthcare. I'm a big fan of both medicine and video games. This is my text blog about the things I love.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  projkov
