@@ -16,8 +16,6 @@ To implement features 3-5, backend support and user authentication will likely b
 
 These suggestions will soon be turned into GitHub issues, and I hope to find time to work on them.
 
-[FHIRPath.me]: https://fhirpath.me
-[Source Code]: https://github.com/projkov/fhirpath-ui
-
 Best regards,
+
 Pavel Rozhkov
