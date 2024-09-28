@@ -1,29 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-05-04 13:09:15 +0200
-categories: jekyll update
+title:  "My thoughts about FHIRPath.me"
+date:   2024-09-028 06:29:00 +0200
+categories: open source
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+It's been a long time since the last version of [FHIRPath.me]: https://fhirpath.me was released. I’ve used this app many times in my work, and I find it convenient, especially because of its speed and sharing feature. However, I have also identified several areas for improvement. Below are my thoughts on the functionality I'd like to see in the app:
 
-Jekyll requires blog post files to be named according to the following format:
+1. `Expand workspace`: I suggest removing the button that triggers the information modal window to free up more space for displaying information.
+2. `Add output format selection`: Currently, there’s no option to select the output format, and the result is shown as a list of text blocks. It would be great to allow users to choose an output format where the result is displayed as a regular string, with the option to separate values using a specified delimiter—such as a period or a comma.
+3. `Support multiple queries simultaneously`: At the moment, users need to open a new browser tab for each query, which can lead to losing track of the task's context. It would be more convenient if users could make multiple queries in the same window.
+4. `Save expressions for reuse`: Often, expressions are repeated with slight variations in context, for example, when a user is studying the CapabilityStatement resource and wants to see different "searchParams" elements for various resource types. Adding the ability to save expressions for later reuse would enhance productivity.
+5. `Enable multiple workspaces`: Users should be able to work with multiple workspaces simultaneously and store references and expressions as formalized collections that they can revisit when needed.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+To implement features 3-5, backend support and user authentication will likely be required. This means expanding the tech stack to include a backend language such as Python or TypeScript, along with a database like PostgreSQL. Initially, it might be sufficient to use local storage with import/export capabilities for collections.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+These suggestions will soon be turned into GitHub issues, and I hope to find time to work on them.
 
-Jekyll also offers powerful support for code snippets:
+[FHIRPath.me]: https://fhirpath.me
+[Source Code]: https://github.com/projkov/fhirpath-ui
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Best regards,
+Pavel Rozhkov
