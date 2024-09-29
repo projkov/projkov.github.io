@@ -2,7 +2,7 @@
 layout: post
 title:  "My thoughts about FHIRPath.me"
 date:   2024-09-28 06:29:00 +0200
-categories: open source
+categories: blog
 ---
 It's been a long time since the last version of [FHIRPath.me]: https://fhirpath.me was released. I’ve used this app many times in my work, and I find it convenient, especially because of its speed and sharing feature. However, I have also identified several areas for improvement. Below are my thoughts on the functionality I'd like to see in the app:
 
