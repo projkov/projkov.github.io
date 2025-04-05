@@ -12,8 +12,9 @@ After this release, I have a few ideas for version 1.1.0, like a history of FHIR
 
 Hope you enjoy using this tool!
 
-https://projkov.github.io/fhirpath-ui/
+[https://projkov.github.io/fhirpath-ui/](https://projkov.github.io/fhirpath-ui/)
 
 Cheers,
+
 Pavel Rozhkov from beda.software
 
