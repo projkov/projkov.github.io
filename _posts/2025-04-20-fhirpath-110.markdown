@@ -1,0 +1,21 @@
+ ---
+layout: post
+title:  "FHIRPath UI v1.1.0 (FHIRPathME)"
+date:   2025-04-20 13:12:00 +0200
+categories: blog
+---
+Every time when I need to use the FHIRPath UI I faced with repeated problem - I don't have the history of the requests and expression executions.
+
+Now this problem is fixed in the 1.1.0 version of the application. The history of the requests and executions is available. The list of features:
+
+1. The history of requests with ability to check resulted resource, use this resource and use the URL;
+2. The history of expression with ability to reuse them.
+
+This update gives me an understanding of new features. Hope to provide new features soon.
+
+https://projkov.github.io/fhirpath-ui/
+
+Best regards,
+
+Pavel Rozhkov from beda.software
+
